@@ -1,0 +1,9 @@
+.wrapperText{
+  line-height: $base__line;
+  @include mq(medium){
+    line-height: em(30px);
+  }
+  .orange-text{
+  color: orange;
+  }
+}

@@ -1,0 +1,13 @@
+
+  .wrapperVideo{
+
+
+      width: 100% ;
+      height: auto ;
+      margin: 0 auto;
+      display: block;
+      @include mq(medium){
+        margin-top: em(20px);
+      }
+
+}

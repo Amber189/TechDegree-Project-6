@@ -1,0 +1,31 @@
+//Font Stacks
+
+$font-url--google     :'https://fonts.googleapis.com/css?family=Open+Sans';
+$font-family--primary : 'Open Sans', sans-serif;
+
+//Font Weights
+
+$font-weight--thin      :100;
+$font-weight--light     :300;
+$font-weight--regular   :400;
+$font-weight--semi-bold :600;
+$font-weight--bold      :700;
+$font-weight--ultra-bold:900;
+
+//descriptive Base theme__colors
+
+$white      : #fff;
+$black      : #0b0b0b;
+$grey       : #797e83;
+
+// text
+
+$base__font-size  : 16px;
+$base__line       : 24px;
+
+// breakpoints
+$break-xs  : 575px;
+$break-s   : 576px;
+$break-m   : 768px;
+$break-l   : 992px;
+$break-xl  : 1024px;

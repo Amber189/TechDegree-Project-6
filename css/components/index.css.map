@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;EACV,KAAK,EAAE,MAAM",
+"sources": ["../../scss/components/_typography.scss"],
+"names": [],
+"file": "index.css"
+}
