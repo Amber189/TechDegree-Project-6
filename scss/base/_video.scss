@@ -1,7 +1,5 @@
 
   .wrapperVideo{
-
-
       width: 100% ;
       height: auto ;
       margin: 0 auto;
@@ -9,13 +7,13 @@
       @include mq(medium){
         margin-top: em(20px);
       }
-      .mejs-controls,
-      & .mejs__button,
-      & .mejs__time-current{
+
+    .mejs__button,
+    .mejs__time-current{
         background-color: orange;
-        -moz-box-shadow:    inset 0 0 10px #000000;
-        -webkit-box-shadow: inset 0 0 10px #000000;
-        box-shadow:         inset 0 0 10px #000000;
+        -moz-box-shadow:    inset 0 0 10px #161616;
+        -webkit-box-shadow: inset 0 0 10px #161616;
+        box-shadow:         inset 0 0 10px #161616;
         border-radius: em(3px);
       }
 }
