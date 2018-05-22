@@ -324,13 +324,16 @@ body {
   @media (min-width: 769px) {
     .wrapperVideo {
       margin-top: 1.25em; } }
+  .wrapperVideo .mejs-controls, .wrapperVideo .mejs__button, .wrapperVideo .mejs__time-current {
+    background-color: orange;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000; }
 
 .wrapperText {
   line-height: 24px; }
   @media (min-width: 769px) {
     .wrapperText {
       line-height: 1.875em; } }
-  .wrapperText .orange-text {
-    color: orange; }
 
 /*# sourceMappingURL=styles.css.map */
